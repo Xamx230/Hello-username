@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>История о моём коте</title>
+</head>
+<body>
+    <script language="JavaScript">
+        let p = prompt("Введите Ваше имя");
+        let username = p;
+
+        function ShowMessage() {
+            let message = 'Привет, ' + username;
+            alert(message);
+        }
+        ShowMessage();
+    </script>
+</body>
+</html>
